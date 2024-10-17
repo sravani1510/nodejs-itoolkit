@@ -13,22 +13,6 @@ ProgramCall API
 .. autofunction:: returnConfig
 .. autofunction:: data
 
-Examples
-^^^^^^^^
-
-Call the QUSROBJD Program
-"""""""""""""""""""""""""
-
-.. literalinclude:: examples/qusrobjd.js
-   :language: javascript
-
-Retrieve the Return Value From a Service Program
-""""""""""""""""""""""""""""""""""""""""""""""""
-
-.. literalinclude:: examples/cosine.js
-   :language: javascript
-
-
 Data types XMLSERVICE
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -124,3 +108,20 @@ Data types XMLSERVICE
      - D mydate     D   datfmt(*iso)
      - ``<data type='10A'>2009-05-11</data>``
      - DATE
+
+Examples
+^^^^^^^^
+
+Call the QUSROBJD Program
+"""""""""""""""""""""""""
+
+.. literalinclude:: examples/qusrobjd.js
+   :language: javascript
+
+Retrieve the Return Value From a Service Program
+""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. literalinclude:: examples/cosine.js
+   :language: javascript
+
+
